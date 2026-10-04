@@ -1,0 +1,10 @@
+node_modules
+.output
+dist
+.tanstack
+.wrangler
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
