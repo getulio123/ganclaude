@@ -1,3 +1,4 @@
+import { Link } from "@tanstack/react-router";
 import logoGan from "@/assets/logo-gan.svg";
 
 export function Footer() {
@@ -40,6 +41,14 @@ export function Footer() {
                   </a>
                 </li>
               ))}
+              <li>
+                <Link
+                  to="/artigos/quick-massage"
+                  className="font-['Inter'] text-sm text-cream/60 transition-colors hover:text-cream"
+                >
+                  Artigos
+                </Link>
+              </li>
             </ul>
           </div>
 
