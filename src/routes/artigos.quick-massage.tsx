@@ -22,6 +22,12 @@ export const Route = createFileRoute("/artigos/quick-massage")({
       },
       { property: "og:type", content: "article" },
       { property: "og:image", content: capaAsset },
+      { name: "twitter:title", content: "Quick Massage no Escritório — GAN Massagem Corporativa" },
+      {
+        name: "twitter:description",
+        content: "Como a Quick Massage reduz o estresse e aumenta a produtividade em 15 minutos.",
+      },
+      { name: "twitter:image", content: capaAsset },
     ],
   }),
   component: ArtigoQuickMassage,

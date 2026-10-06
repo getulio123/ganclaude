@@ -8,13 +8,13 @@ import tecnicaAsset from "@/assets/massagem-ombros-escritorio.png";
 export const Route = createFileRoute("/artigos/retencao-talentos")({
   head: () => ({
     meta: [
-      { title: "Massagem Corporativa: retenção de talentos e redução do absenteísmo — GAN" },
+      { title: "Massagem Corporativa e retenção de talentos — GAN" },
       {
         name: "description",
         content:
           "Descubra como a massagem corporativa se torna um ativo estratégico para reter talentos, reduzir o absenteísmo e fortalecer o employer branding da sua empresa.",
       },
-      { property: "og:title", content: "Massagem Corporativa: retenção de talentos e redução do absenteísmo — GAN" },
+      { property: "og:title", content: "Massagem Corporativa e retenção de talentos — GAN" },
       {
         property: "og:description",
         content:
@@ -22,6 +22,12 @@ export const Route = createFileRoute("/artigos/retencao-talentos")({
       },
       { property: "og:type", content: "article" },
       { property: "og:image", content: capaAsset },
+      { name: "twitter:title", content: "Massagem Corporativa e retenção de talentos — GAN" },
+      {
+        name: "twitter:description",
+        content: "ROI do bem-estar corporativo: menos absenteísmo, mais produtividade e equipes engajadas.",
+      },
+      { name: "twitter:image", content: capaAsset },
     ],
   }),
   component: ArtigoRetencaoTalentos,
